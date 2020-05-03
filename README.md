@@ -9,5 +9,5 @@ Recipe app api source code.
 `docker-compose run --rm app sh -c "python manage.py test && flake8"`
 
 ## Make migrations
-`docker-compose run --rm app sh -c "python manage.py makemigrations"`
+`docker-compose run --rm app sh -c "python manage.py makemigrations core"`
 
